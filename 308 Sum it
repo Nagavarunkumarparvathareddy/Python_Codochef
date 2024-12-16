@@ -1,0 +1,10 @@
+# cook your dish here
+def sumup():
+    x,y,z = map(int,input().split())
+    if (x+y)==z:
+        print('yes')
+    else:
+        print('no')
+t = int(input())
+for i in range(t):
+    sumup()
