@@ -1,0 +1,7 @@
+# cook your dish here
+def amount():
+    x,y = map(int,input().split())
+    print(y-x)
+t = int(input())
+for i in range(t):
+    amount()
