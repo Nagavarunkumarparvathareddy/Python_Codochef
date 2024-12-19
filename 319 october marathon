@@ -1,0 +1,4 @@
+# cook your dish here
+x = int(input())
+out = 'Gold' if x < 3 else 'silver' if  x>=3 and x<6 else 'bronze'
+print(out)
